@@ -1,11 +1,8 @@
-# Compiler Principles Experiments
+编译原理实验
+本仓库包含武汉理工大学编译原理课程的两个实验。
 
-This repository contains two experiments from the Compiler Principles course at Wuhan University of Technology.
+实验 1：词法分析
+第一个实验聚焦于词法分析。该实验涉及创建一个词法分析器，用于对给定的源代码进行词法分析（Tokenize）。目标是识别关键字、运算符、变量及源语言的其他组成部分。
 
-## Experiment 1: Lexical Analysis
-
-The first experiment focuses on lexical analysis. It involves the creation of a lexical analyzer that can tokenize a given source code. The goal is to identify keywords, operators, variables, and other components of the source language.
-
-## Experiment 2: Syntax Analysis
-
-The second experiment is about syntax analysis. It aims to implement a syntax analyzer (parser) that checks the structure of the source code based on a given grammar. The experiment involves constructing a parser that can detect and report syntax errors.
+实验 2：语法分析
+第二个实验涉及语法分析。目标是实现一个语法分析器（Parser），用于根据给定的文法检查源代码的结构。该实验要求构造一个解析器，以检测并报告语法错误。
